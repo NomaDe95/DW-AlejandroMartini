@@ -1,0 +1,57 @@
+/* index */
+.aside img{
+    width: 30%;
+}
+
+.footer{
+background-color: #F4F2EB;
+}
+.footer li{
+    list-style: none;
+}
+.footer img{
+    width: 38px;
+}
+
+/* Ubicaciones */
+.main h4{
+    padding-top: 15px;
+}
+
+/* Exhibiciones */
+.muestras img{
+    width: 400px;
+}
+.img{
+    width: 400px;
+}
+.ant{
+    padding-left: 10px;
+}
+
+/* Artistas */
+.cards__art img{
+    width: 300px;
+}
+.cards__art p{
+    display: flex;
+    justify-content: center;
+}
+
+/* Newsletter */
+
+/* Animaciones */
+.img1.grow{
+    transition: all .1s ease-in-out;
+}
+.img1:hover{
+    transform: scale(1.2);
+}
+
+.card.grow{
+    transition: all .1s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.1);
+    padding: 1px;
+}
